@@ -1,0 +1,14 @@
+C:\Users\josep\source\repos\CS264Assignment3\CS264Assignment3\bin\Debug\netcoreapp3.1\CS264Assignment3.exe
+C:\Users\josep\source\repos\CS264Assignment3\CS264Assignment3\bin\Debug\netcoreapp3.1\CS264Assignment3.deps.json
+C:\Users\josep\source\repos\CS264Assignment3\CS264Assignment3\bin\Debug\netcoreapp3.1\CS264Assignment3.runtimeconfig.json
+C:\Users\josep\source\repos\CS264Assignment3\CS264Assignment3\bin\Debug\netcoreapp3.1\CS264Assignment3.runtimeconfig.dev.json
+C:\Users\josep\source\repos\CS264Assignment3\CS264Assignment3\bin\Debug\netcoreapp3.1\CS264Assignment3.dll
+C:\Users\josep\source\repos\CS264Assignment3\CS264Assignment3\bin\Debug\netcoreapp3.1\CS264Assignment3.pdb
+C:\Users\josep\source\repos\CS264Assignment3\CS264Assignment3\obj\Debug\netcoreapp3.1\CS264Assignment3.csproj.AssemblyReference.cache
+C:\Users\josep\source\repos\CS264Assignment3\CS264Assignment3\obj\Debug\netcoreapp3.1\CS264Assignment3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josep\source\repos\CS264Assignment3\CS264Assignment3\obj\Debug\netcoreapp3.1\CS264Assignment3.AssemblyInfoInputs.cache
+C:\Users\josep\source\repos\CS264Assignment3\CS264Assignment3\obj\Debug\netcoreapp3.1\CS264Assignment3.AssemblyInfo.cs
+C:\Users\josep\source\repos\CS264Assignment3\CS264Assignment3\obj\Debug\netcoreapp3.1\CS264Assignment3.csproj.CoreCompileInputs.cache
+C:\Users\josep\source\repos\CS264Assignment3\CS264Assignment3\obj\Debug\netcoreapp3.1\CS264Assignment3.dll
+C:\Users\josep\source\repos\CS264Assignment3\CS264Assignment3\obj\Debug\netcoreapp3.1\CS264Assignment3.pdb
+C:\Users\josep\source\repos\CS264Assignment3\CS264Assignment3\obj\Debug\netcoreapp3.1\CS264Assignment3.genruntimeconfig.cache
