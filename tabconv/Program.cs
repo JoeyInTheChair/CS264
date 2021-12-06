@@ -81,16 +81,16 @@ namespace CS264Assignment1
                     break;
                 }
             }
-            string firstEx = getFirstExFile(startEx, table);
-            string secEx = getSecExFile(lastEx, table);
             Console.Clear();
-            WriteLine(startEx + " file: ");
-            WriteLine(firstEx);
+            WriteLine(startEx + " file: \n");
+            WriteLine(getFile(startEx, table));
             WriteLine("--------------------------------------------------------------------------------------------------");
-            WriteLine(lastEx + " file: ");
-            WriteLine(secEx);
+            WriteLine(lastEx + " file: \n");
+            WriteLine(getFile(lastEx, table));
+            WriteLine(lastEx + " file exported as file." + lastEx);
+            exportFile(lastEx, getFile(lastEx, table));
         }
-        static string getFirstExFile(string s, List<Table> table)
+        static string getFile(string s, List<Table> table)
         {
             string file = "";
             switch(s)
@@ -138,12 +138,12 @@ namespace CS264Assignment1
                         List<string> temp = t.getData();
                         string[] arr = new string[temp.Count];
                         string[] result = getJSONData(table, temp);
-                        file += "\n	 {";
+                        file += "\n  {";
                         for(int i = 0; i < result.Length; i++)
                         {
-                            file += "\n	 	 " + result[i];
+                            file += "\n   " + result[i];
                         }
-                        file += "\n	 },";
+                        file += "\n  },";
                     }
                     file = file.Substring(0, file.Length - 1);
                     file += "\n]";
@@ -157,7 +157,7 @@ namespace CS264Assignment1
             int pos = 0;
             foreach(Table t in table)
             {
-                result[pos++] = "\n	 	 \"" + t.header + "\": \"";
+                result[pos++] = "\"" + t.header + "\": \"";
             }
             for(int i = 0; i < result.Length; i++)
             {
@@ -166,69 +166,21 @@ namespace CS264Assignment1
             result[result.Length - 1] = result[result.Length - 1].Substring(0, result[result.Length - 1].Length - 1);
             return result;
         }
-        static string getSecExFile(string s, List<Table> table)
+        static void exportFile(string s, string file)
         {
-            string file = "";
+            
             switch (s)
             {
                 case "csv":
-                    foreach (Table t in table)
-                    {
-                        file += "\"" + t.header + "\",";
-                    }
-                    file = file.Substring(0, file.Length - 1) + "\n";
-                    foreach (Table t in table)
-                    {
-                        List<string> temp = t.getData();
-                        foreach (string p in temp)
-                        {
-                            file += "\"" + p + "\",";
-                        }
-                        file = file.Substring(0, file.Length - 1) + "\n";
-                        File.WriteAllText("file.csv", file);
-                    }
+                    File.WriteAllText("file.csv", file);
                     break;
                 case "html":
-                    file += "<table>";
-                    file += "\n	 <tr>";
-                    foreach (Table t in table)
-                    {
-                        file += "\n	 	 <th>" + t.header + "</th>";
-                    }
-                    file += "\n	 </tr>";
-                    foreach (Table t in table)
-                    {
-                        file += "\n	 <tr>";
-                        List<string> temp = t.getData();
-                        foreach (string p in temp)
-                        {
-                            file += "\n	 	 <td>" + p + "</td>";
-                        }
-                        file += "\n	 </tr>";
-                    }
-                    file += "\n</table>";
                     File.WriteAllText("file.html", file);
                     break;
                 case "json":
-                    file += "[";
-                    foreach (Table t in table)
-                    {
-                        List<string> temp = t.getData();
-                        string[] arr = new string[temp.Count];
-                        string[] result = getJSONData(table, temp);
-                        file += "\n	 {";
-                        for (int i = 0; i < result.Length; i++)
-                        {
-                            file += "\n	 	 " + result[i];
-                        }
-                        file += "\n	 },";
-                    }
-                    file = file.Substring(0, file.Length - 1);
-                    file += "\n]";
                     File.WriteAllText("file.json", file);
                     break;
             }
-            return file;
         }
     }
     class Table
