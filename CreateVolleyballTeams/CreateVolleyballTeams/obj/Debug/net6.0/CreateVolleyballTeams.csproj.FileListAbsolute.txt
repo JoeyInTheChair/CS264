@@ -1,0 +1,15 @@
+C:\Users\josep\Desktop\quiz4\x64\CreateVolleyballTeams\CreateVolleyballTeams\bin\Debug\net6.0\CreateVolleyballTeams.exe
+C:\Users\josep\Desktop\quiz4\x64\CreateVolleyballTeams\CreateVolleyballTeams\bin\Debug\net6.0\CreateVolleyballTeams.deps.json
+C:\Users\josep\Desktop\quiz4\x64\CreateVolleyballTeams\CreateVolleyballTeams\bin\Debug\net6.0\CreateVolleyballTeams.runtimeconfig.json
+C:\Users\josep\Desktop\quiz4\x64\CreateVolleyballTeams\CreateVolleyballTeams\bin\Debug\net6.0\CreateVolleyballTeams.dll
+C:\Users\josep\Desktop\quiz4\x64\CreateVolleyballTeams\CreateVolleyballTeams\bin\Debug\net6.0\CreateVolleyballTeams.pdb
+C:\Users\josep\Desktop\quiz4\x64\CreateVolleyballTeams\CreateVolleyballTeams\obj\Debug\net6.0\CreateVolleyballTeams.csproj.AssemblyReference.cache
+C:\Users\josep\Desktop\quiz4\x64\CreateVolleyballTeams\CreateVolleyballTeams\obj\Debug\net6.0\CreateVolleyballTeams.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\josep\Desktop\quiz4\x64\CreateVolleyballTeams\CreateVolleyballTeams\obj\Debug\net6.0\CreateVolleyballTeams.AssemblyInfoInputs.cache
+C:\Users\josep\Desktop\quiz4\x64\CreateVolleyballTeams\CreateVolleyballTeams\obj\Debug\net6.0\CreateVolleyballTeams.AssemblyInfo.cs
+C:\Users\josep\Desktop\quiz4\x64\CreateVolleyballTeams\CreateVolleyballTeams\obj\Debug\net6.0\CreateVolleyballTeams.csproj.CoreCompileInputs.cache
+C:\Users\josep\Desktop\quiz4\x64\CreateVolleyballTeams\CreateVolleyballTeams\obj\Debug\net6.0\CreateVolleyballTeams.dll
+C:\Users\josep\Desktop\quiz4\x64\CreateVolleyballTeams\CreateVolleyballTeams\obj\Debug\net6.0\refint\CreateVolleyballTeams.dll
+C:\Users\josep\Desktop\quiz4\x64\CreateVolleyballTeams\CreateVolleyballTeams\obj\Debug\net6.0\CreateVolleyballTeams.pdb
+C:\Users\josep\Desktop\quiz4\x64\CreateVolleyballTeams\CreateVolleyballTeams\obj\Debug\net6.0\CreateVolleyballTeams.genruntimeconfig.cache
+C:\Users\josep\Desktop\quiz4\x64\CreateVolleyballTeams\CreateVolleyballTeams\obj\Debug\net6.0\ref\CreateVolleyballTeams.dll
